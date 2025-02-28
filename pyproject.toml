@@ -25,7 +25,7 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
     "Topic :: Internet :: WWW/HTTP :: Session",
 ]
-dependencies = ["sanic", "redis>=5.0.0,<6.0", "hiredis>=2.3.2,<3.0"]
+dependencies = ["sanic", "redis>=5.0.0,<6.0", "hiredis>=2.3.2,<3.2"]
 
 [project.optional-dependencies]
 test = [
